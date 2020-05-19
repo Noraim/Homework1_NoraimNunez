@@ -1,0 +1,13 @@
+// Author: Noraim Nunez 
+
+#include <iostream> is a pre-processor directive that tells informs the processor-when compliling code- to include additional header files in the program.
+#The # is the compiler directive and with #include the preprocessor imports information- additional headers and defined coding terminology- from another file of code.
+# iostream is the definition of telling the preprocessor, "Hey, reference these additional #include files to understanf the code I am writing"
+# <> in <iostream> and all #include files is the start and end indicator of the file name.
+# #include <> can be viewed as a bookmark that references declared variables in which the current file will use to simplify the desired code process.
+# The variables declared in reference to the # files would be integerers in the current file. Hence, the code mentioned in slide 1 from the lecture will not work without "cout" (\
+which prints the output). )
+
+# References:
+# https://www.quora.com/What-means-include-iostream-h-in-C++
+# https://stackoverflow.com/questions/22645097/what-does-include-iostream-doo
