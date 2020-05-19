@@ -1,0 +1,21 @@
+//author: Noraim Nunez                                                                                                                                                                                                                                                                                                                                             
+
+#include<iostream>
+
+using namespace std;
+
+int main(int argc, char* argv[]){
+  string name;
+
+  name = "Noraim Nunez";
+
+  cout<< "Full Name:\n"<<name<< '\n'<<endl;
+
+  int age;
+  age = 25;
+
+  cout<<"Current age:\n"<< age<<endl;
+
+return 99;
+}
+
