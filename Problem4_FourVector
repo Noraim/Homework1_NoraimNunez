@@ -1,0 +1,71 @@
+#include<iostream>
+#include<math.h>
+
+
+using namespace std;
+
+int main(int argc, char* argv[]){
+
+  //Declaring floats anf integer notation                                            
+  int E1;
+  int Px1;
+  int Py1;
+  int Pz1;
+
+  int E2;
+  int Px2;
+  int Py2;
+  int Pz2;
+
+  int Et;
+  int Pxt;
+  int Pyt;
+  int Pzt;
+
+  //Declaring squared notation   
+  float Pxtsqre;
+  float Pytsqre;
+  float Pztsqre;
+  float Etsqre;
+
+  //Declaring momentums                                                              
+  float Ptsqr;
+  float msqr;
+
+  E1 = 40;
+  Px1 = 8;
+  Py1 = 4;
+  Pz1 = 2;
+
+  E2 = 30;
+  Px2 = 9;
+  Py2 = 3;
+  Pz2 = 1;
+
+  //Squaring variables                                                               
+  Et = (E1 + E2);     // 70                                                          
+  Pxt = (Px1 + Px2);  // 17                                                          
+  Pyt = (Py1 + Py2);  // 7                                                           
+  Pzt = (Pz1 + Pz2);  // 3                                                           
+          
+   //squaring the values                                                              
+  Etsqre = Et*Et;   // 4900                                                          
+  Pxtsqre = Pxt*Pxt;  // 289                                                         
+  Pytsqre = Pyt*Pyt;  // 49                                                          
+  Pztsqre = Pzt*Pzt;  // 9                                                           
+
+  //Used to check the math was being read correctly                                 
+  //cout<<"Squaring Et\n"<<Etsqre<<endl;                                             
+  //cout<<"Squaring Pxt\n"<<Pxtsqre<<endl;                                           
+  //cout<<"Squaring Pyt\n"<<Pytsqre<<endl;                                           
+  //cout<<"Squaring Pzt\n"<<Pztsqre<<endl;                                           
+
+
+  //Total momentum                        
+    Ptsqr = sqrt(Pxtsqre + Pytsqre + Pztsqre); //                                      
+  msqr = sqrt(Etsqre - Ptsqr);
+
+    cout<<"The Rest Mass\n"<<msqr<<'\n'<<endl;
+
+ return 99;
+}
