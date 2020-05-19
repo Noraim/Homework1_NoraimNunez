@@ -1,4 +1,3 @@
-###########################
 # Author: NoraimNunez     #
 # 18 May, 2020            #
 # Assignment_1 Questions  #
