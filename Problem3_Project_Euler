@@ -1,0 +1,5 @@
+//Author: Noraim Nunez 
+
+#Start wil integers 1-999. 
+#You would like to divide the overall range of integers by 3 and 5.
+#If there is an output of an integer, the value will be used to get a total sum of integers for multiples of 3 and 5 within the given range 
